@@ -1,5 +1,5 @@
-DIY Remote Control 
-------------------
+# DIY Remote Control 
+
 
 **Hardware-List:**
 
@@ -14,3 +14,15 @@ DIY Remote Control
 
 ![Remote Control Sender](doc/remoteCtrlSender.svg "Remote Control Sender")
 
+------------------
+
+## Build
+
+This is a platformIO project (https://platformio.org/).
+Using the CLI tool:
+
+    platformio run
+
+## Upload
+
+    platformio run --target upload --environment esp12e 
